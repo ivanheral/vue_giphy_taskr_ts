@@ -1,0 +1,38 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "Gif search engine with vue 2.x, element-ui and typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "taskr dev",
+    "prod": "taskr prod",
+    "tsc": "tsc",
+    "lint": "eslint --ext .vue src --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "core-js": "^3.6.4",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.11",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@taskr/esnext": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "babel-plugin-component": "^1.1.1",
+    "element-ui": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.1",
+    "prettier": "^1.19.1",
+    "taskr": "^1.1.0",
+    "taskr-build": "https://github.com/ivanheral/taskr-build.git"
+  }
+}
